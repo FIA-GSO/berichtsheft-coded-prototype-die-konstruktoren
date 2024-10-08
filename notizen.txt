@@ -1,0 +1,12 @@
+Berichtsheft-Tool
+
+Was ist zu tun?
+-Fachliche Anforderung (User-Story)
+-Technische Umsetzungsaspekte:
+  - Prozess (von LoFi zu HiFI)
+  - Usability(responsives Design, Dialogprinzipen,...)
+-Prozessdokumentation (Wer macht was?)
+-Prozess: Führen Sie eine heuristische Evaluation (auf Basis der Dialogprinzipien
+der bisherigen LoFi-Prototypen(Wireframes) durch.
+-Abgabe: Entwickeln Sie Ihre Produktidee in Form
+von HiFi-Prototypen(Mockups), im Hinblick auf Usability(Dialogprinzipien/UI-States) weiter.
