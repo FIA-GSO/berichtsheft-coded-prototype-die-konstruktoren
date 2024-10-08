@@ -6,7 +6,20 @@ Was ist zu tun?
   - Prozess (von LoFi zu HiFI)
   - Usability(responsives Design, Dialogprinzipen,...)
 -Prozessdokumentation (Wer macht was?)
+
+Arbeitsauftrag 1:
 -Prozess: Führen Sie eine heuristische Evaluation (auf Basis der Dialogprinzipien
 der bisherigen LoFi-Prototypen(Wireframes) durch.
 -Abgabe: Entwickeln Sie Ihre Produktidee in Form
 von HiFi-Prototypen(Mockups), im Hinblick auf Usability(Dialogprinzipien/UI-States) weiter.
+
+Arbeitsauftrag 2:
+-Wählen Sie Dialogprinzipen aus und berücksichtigen Sie diese bei der Weiterentwicklung Ihrer
+Prototypen (Wireframes)
+-Planen Sie dabei auch aussagekräftige/unterscheidbare UI-States/ Zustände Ihrer UI-Elemente.
+-Dokumentieren(OneNote/PPT) Sie Ihr Ergebnis und erläutern Sie stichwortwortartig, wie ihre Prototypen
+die Anforderungen der Usability (Dialogprinzipien/UI-States) umsetzt!
+Dokumentation:
+_Bezug zu Wireframes
+_Bezug zu drei Dialogprinzipien
+_Bezug zu UI-Zuständen
