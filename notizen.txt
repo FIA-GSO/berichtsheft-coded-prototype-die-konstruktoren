@@ -24,3 +24,17 @@ _Bezug zu Wireframes
 _Bezug zu drei Dialogprinzipien
 _Bezug zu UI-Zuständen
 
+Anforderungen:
+-responsive Web Design
+-Dokumente hochladen
+-Azubi spezifische Daten
+-Liste für Tätigkeiten und deren Dauer (einzeln)
+-pro Tag default Abteilung (überschreibbar)
+-tägliche Gesamtstundenzahl (Tätigkeiten)
+-digtales signieren der Nachweise
+-Bericht an Ausbilder schicken und benachrichtigen
+-Berichte einsehbar
+-Berichte müssen bearbeitabr sei
+-Berichte sollen Vorlagen wie Krank und Urlaub haben
+-Erinnerungen
+
