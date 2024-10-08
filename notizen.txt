@@ -17,7 +17,7 @@ Arbeitsauftrag 2:
 -Wählen Sie Dialogprinzipen aus und berücksichtigen Sie diese bei der Weiterentwicklung Ihrer
 Prototypen (Wireframes)
 -Planen Sie dabei auch aussagekräftige/unterscheidbare UI-States/ Zustände Ihrer UI-Elemente.
--Dokumentieren(OneNote/PPT) Sie Ihr Ergebnis und erläutern Sie stichwortwortartig, wie ihre Prototypen
+-Dokumentieren(OneNote/PPT) Sie Ihr Ergebnis und erläutern Sie Stichwortwortartig, wie ihre Prototypen
 die Anforderungen der Usability (Dialogprinzipien/UI-States) umsetzt!
 Dokumentation:
 _Bezug zu Wireframes
