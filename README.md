@@ -8,3 +8,5 @@ https://miro.com/app/board/uXjVLMGRyEk=/
 
 Das als PDF hinterlegte Mockup ist eine komprimierte und nicht 100%ige Darstellung des tatsächlichen Mockups.
 Der hier hinterlegte Link ist die korrekte Darstellung.
+
+(Gemeinsame Arbeit)
