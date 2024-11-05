@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Auszubildender </title> <button type="button" class="button-danger">Log Out</button>
-    <style>
+    <title> Auszubildender </title><button type="button" class="button-danger">Log Out</button>
+</head>
+<body>
+<div class="container">
+    <h1>Formular Titel</h1>
+    <form>
+       <label>Vorname:</label><input type="text" class="input-field" placeholder="Max">
+        <label>Nachname:</label><input type="text" class="input-field" placeholder="Mustermann">
+        <label>E-Mail:</label><input type="text" class="input-field" placeholder="max@mustermann.de">
+        <label>Ort:</label><input type="text" class="input-field" placeholder="Musterort">
+        <label>Straße:</label><input type="text" class="input-field" placeholder="Musterstraße">
+        <label>Hausnummer:</label><input type="int" class="input-field" placeholder="123">
+        <label>Ausblidungsbetrieb:</label><input type="text" class="input-field" placeholder="Musterbetrieb">
+        <label>Ausblidungsstart:</label><input type="text" class="input-field" placeholder="01.01.2000">
+        <label>Ausblidungsende:</label><input type="text" class="input-field" placeholder="01.12.2003">
+
+        <div class="button-group">
+            <button type="button" class="button-secondary">Abbrechen</button>
+            <button type="button" class="button-primary">Speichern</button>
+        </div>
+    </form>
+</div>
+</body>
+
+<style>
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -54,29 +77,4 @@
             color: #fff;
         }
     </style>
-</head>
-<body>
-
-<div class="container">
-    <h1>Formular Titel</h1>
-    <form>
-        <input type="Vorname" class="input-field" placeholder="Max">
-        <input type="Nachname" class="input-field" placeholder="Mustermann">
-        <input type="E-Mail" class="input-field" placeholder="max@mustermann.de">
-        <input type="Ort" class="input-field" placeholder="Musterort">
-        <input type="Straße" class="input-field" placeholder="Musterstraße">
-        <input type="Hausnummer" class="input-field" placeholder="123">
-        <input type="Ausblidungsbetrieb" class="input-field" placeholder="Musterbetrieb">
-        <input type="Ausblidungsstart" class="input-field" placeholder="01.01.2000">
-        <input type="Ausblidungsende" class="input-field" placeholder="01.12.2003">
-
-        <div class="button-group">
-            <button type="button" class="button-primary">Speichern</button>
-            <button type="button" class="button-secondary">Abbrechen</button>
-
-        </div>
-    </form>
-</div>
-
-</body>
 </html>
