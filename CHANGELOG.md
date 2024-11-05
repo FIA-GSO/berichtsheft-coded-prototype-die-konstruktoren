@@ -9,3 +9,9 @@
 ### ADDED
 
 * Directories and Files
+
+### Version 1.1.1
+
+### ADDED
+
+* Filled login page
