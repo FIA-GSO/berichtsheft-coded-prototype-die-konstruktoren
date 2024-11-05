@@ -1,0 +1,18 @@
+.landingPage {
+
+}
+
+.landingPageForms {
+
+}
+
+.buttonM {
+    display: flex;
+    min-width: 150px;
+    max-width: 100px;
+    min-height: 30px;
+    max-height: 50px;
+    margin-bottom: 10px;
+    border: solid #007bff;
+    border-radius: 30px;
+}
