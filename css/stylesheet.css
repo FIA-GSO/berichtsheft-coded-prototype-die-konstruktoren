@@ -35,6 +35,7 @@
     border: solid 1px #007bff;
     border-radius: 30px;
     background-color: transparent;
+    text-align: center;
     line-height: 30px;
     cursor: pointer;
 }
