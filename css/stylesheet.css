@@ -26,4 +26,9 @@
     border: solid 1px #007bff;
     border-radius: 30px;
     background-color: transparent;
+    cursor: pointer;
+}
+
+.button-group button {
+    padding: 10px 20px;
 }
