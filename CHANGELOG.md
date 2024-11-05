@@ -14,4 +14,6 @@
 
 ### ADDED
 
-* Filled login page
+* filled login page
+* styled login page
+* added label, button and input styles

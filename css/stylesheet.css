@@ -3,6 +3,16 @@
 }
 
 .landingPageForms {
+    display: flex;
+    width: 400px;
+    align-content: flex-end;
+}
+
+.labelM {
+
+}
+
+.inputM {
 
 }
 
@@ -13,6 +23,7 @@
     min-height: 30px;
     max-height: 50px;
     margin-bottom: 10px;
-    border: solid #007bff;
+    border: solid 1px #007bff;
     border-radius: 30px;
+    background-color: transparent;
 }
