@@ -72,6 +72,7 @@ h1 {
     margin: 0px;
     border: solid 1px white;
     border-radius: 30px;
+    color: white;
 }
 
 .pageFooter {
@@ -149,8 +150,6 @@ h1 {
     max-width: 100px;
     height: 50px;
     margin-bottom: 10px;
-    border: solid 1px white;
-    border-radius: 30px;
     background-color: transparent;
     text-align: center;
     line-height: 50px;
