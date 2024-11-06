@@ -32,7 +32,7 @@
 * altered h1 sizes
 * altered color scheme
 
-### Version 1.1.3
+### Version 1.2
 
 ### ADDED
 
