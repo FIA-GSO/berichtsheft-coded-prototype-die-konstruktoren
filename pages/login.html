@@ -1,6 +1,7 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" href="../css/stylesheet.css">
+    <script src="../js/app.js" defer></script>
     <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
 </head>
 <body style="background-color: FE654F; color: white; font-family: 'Fredoka One'">
@@ -11,16 +12,19 @@
         <div class="landingPagecllt">
             <form class="landingPageForms">
                 <label class="labelM">E-Mail: </label>
-                <input class="inputM" type="text">
+                <input class="inputM" type="text" id="email">
             </form>
             <form class="landingPageForms">
                 <label class="labelM">Passwort: </label>
-                <input class="inputM" type="text">
+                <input class="inputM" type="text" id="password">
             </form>
         </div>
         <div class="landingPageForms">
-            <input class="buttonM" type="button" value="Login / Regestrieren" style="margin-right: 30px">
-            <input class="buttonM" type="button" value="Passwort vergessen">
+            <input class="buttonM" type="button" value="Login / Regestrieren" style="margin-right: 30px" id="loginBtn">
+            <input class="buttonM" type="button" value="Passwort vergessen" id="passwordForgotBtn">
+        </div>
+        <div>
+            <p id="pTest"></p>
         </div>
     </div>
 </body>
