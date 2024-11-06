@@ -17,3 +17,13 @@
 * filled login page
 * styled login page
 * added label, button and input styles
+
+### Version 1.1.2
+
+### CHANGED
+
+* filled menu page
+* styled menu page
+* added new font
+* altered h1 sizes
+* altered color scheme
