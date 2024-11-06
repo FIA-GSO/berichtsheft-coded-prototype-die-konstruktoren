@@ -25,5 +25,6 @@
 * filled menu page
 * styled menu page
 * added new font
+* added new footer
 * altered h1 sizes
 * altered color scheme
