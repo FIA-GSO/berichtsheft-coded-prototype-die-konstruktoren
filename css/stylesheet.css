@@ -1,19 +1,130 @@
-.landingPage {
+h1 {
+    font-size: 60px;
+}
 
+.landingPage {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    width: available;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.landingPageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.landingPagecllt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
 }
 
 .landingPageForms {
     display: flex;
-    width: 400px;
+    width: 330px;
     align-content: flex-end;
+    vertical-align: center;
+}
+
+.menuButtons {
+    display: flex;
+    flex-direction: row;
+    min-width: 150px;
+    max-width: 350px;
+    justify-content: space-between;
+}
+
+.menuList {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-width: 400px;
+    max-width: 1300px;
+    color: white;
+    padding: 0px;
+}
+
+.menuListRow {
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+    max-width: 1300px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.menutListItem {
+    min-width: 200px;
+    width: 1400px;
+    max-width: 1140px;
+    text-align: center;
+    margin: 0px;
+    border: solid 1px white;
+    border-radius: 30px;
+    color: white;
+}
+
+.pageFooter {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: FE654F;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: center;
 }
 
 .labelM {
-
+    min-width: 80px;
+    max-width: 80px;
+    font-size: medium;
+    text-align: center;
+    line-height: 40px;
 }
 
 .inputM {
+    width: 250px;
+    min-height: 40px;
+    max-height: 40px;
+    border: solid 1px white;
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    font-family: "Fredoka One";
+}
 
+.buttonS {
+    display: flex;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+    border: solid 0px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    color: white;
+    font-family: "Fredoka One";
+    /* does still need to be changed to different size */
 }
 
 .buttonM {
@@ -21,12 +132,30 @@
     min-width: 150px;
     max-width: 100px;
     min-height: 30px;
-    max-height: 50px;
+    max-height: 30px;
     margin-bottom: 10px;
-    border: solid 1px #007bff;
+    border: solid 1px white;
     border-radius: 30px;
     background-color: transparent;
+    text-align: center;
+    line-height: 30px;
     cursor: pointer;
+    color: white;
+    font-family: "Fredoka One";
+}
+
+.linkM {
+    display: flex;
+    min-width: 150px;
+    max-width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color: white;
+    font-family: "Fredoka One";
 }
 
 .button-group button {

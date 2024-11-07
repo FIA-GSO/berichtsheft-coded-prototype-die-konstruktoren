@@ -10,3 +10,7 @@ Das als PDF hinterlegte Mockup ist eine komprimierte und nicht 100%ige Darstellu
 Der hier hinterlegte Link ist die korrekte Darstellung.
 
 (Gemeinsame Arbeit)
+
+### STARTING THE SERVER
+
+as of Version 1.2 you can run "node server.js" in the root directory of the project so start the node server
