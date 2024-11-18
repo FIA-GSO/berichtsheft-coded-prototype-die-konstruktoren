@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
     <title>Berichtsheft</title>
 </head>
 <body style="background-color: #FE654F; color: white; font-family: 'Fredoka One'">
@@ -40,6 +41,68 @@
 </html>
 <style>
 
+    @media (max-width: 768px) {
+        .landingPageWrapper {
+            max-width: 90%; /* Allow the form to stretch more on smaller screens */
+            margin: 0 auto; /* Center the form */
+        }
 
+        .reportListRow {
+            margin-bottom: 15px; /* Slightly reduce gaps to fit smaller screens */
+        }
+
+        .reportButtons {
+            flex-direction: column; /* Stack buttons vertically on small screens */
+            gap: 15px; /* Add space between stacked buttons */
+            align-items: center; /* Center-align buttons */
+        }
+
+        .textareaM {
+            height: 120px; /* Reduce height slightly for smaller screens */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .landingPageWrapper {
+            max-width: 95%; /* Use nearly full screen width */
+            padding: 10px; /* Add some padding for small screens */
+        }
+
+        .labelM {
+            font-size: small; /* Adjust label font size */
+        }
+
+        .inputM,
+        .textareaM {
+            font-size: small; /* Adjust input text size */
+            padding: 10px; /* Reduce padding */
+        }
+
+        h1 {
+            font-size: 40px; /* Smaller title for compact screens */
+        }
+
+        .reportButtons {
+            gap: 10px; /* Smaller gap between buttons */
+        }
+    }
+    .buttonM {
+        display: flex; /* Use Flexbox */
+        justify-content: center; /* Horizontally center the text */
+        align-items: center; /* Vertically center the text */
+        min-width: 150px;
+        max-width: 100px;
+        min-height: 30px;
+        max-height: 30px;
+        margin-bottom: 10px;
+        border: solid 1px white;
+        border-radius: 30px;
+        background-color: transparent;
+        text-align: center;
+        line-height: 30px; /* Optional for fallback centering */
+        cursor: pointer;
+        color: white;
+        font-family: "Fredoka One";
+    }
 
 </style>
