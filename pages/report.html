@@ -4,186 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berichtsheft</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1b0737;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .container {
-            max-width: 600px;
-            background-color: #1b0737;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 2em;
-            color: #fff;
-            margin-bottom: 20px;
-        }
-
-        .profile-icon {
-            display: block;
-            margin: 0 auto 10px;
-            width: 50px;
-            height: 50px;
-            border: 2px solid #fff;
-            border-radius: 50%;
-        }
-
-        .form-group {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 15px;
-        }
-
-        .form-group label {
-            flex: 1;
-            margin-right: 10px;
-            color: #e9b7f2;
-            font-size: 0.9em;
-        }
-
-        .form-group input {
-            flex: 2;
-            padding: 8px;
-            background-color: #2e1a47;
-            border: 2px solid #ff8ff0;
-            border-radius: 5px;
-            color: #fff;
-        }
-
-        .activity-section {
-            background-color: #2e1a47;
-            border-radius: 10px;
-            padding: 15px;
-            margin-bottom: 20px;
-        }
-
-        .activity-section .form-group {
-            flex-direction: column;
-        }
-
-        .activity-inputs {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 10px;
-        }
-
-        .activity-inputs input {
-            flex: 1;
-            margin: 0 5px;
-            padding: 8px;
-            background-color: #2e1a47;
-            border: 2px solid #ff8ff0;
-            border-radius: 5px;
-            color: #fff;
-        }
-
-        .activity-actions {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 10px;
-            color: #ff8ff0;
-            font-size: 1.2em;
-        }
-
-        .button-group {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .button-group button {
-            padding: 10px 20px;
-            font-size: 1em;
-            color: #fff;
-            background-color: #2e1a47;
-            border: 2px solid #ff8ff0;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .button-group button:hover {
-            background-color: #3b2958;
-        }
-    </style>
-</head>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <link rel="script" href="../js/app.js">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'></head>
 <body>
-<div class="container">
-    <div class="profile-icon"></div>
-    <h1>Berichtsheft</h1>
+<div class="landingPage">
+    <div class="landingPageWrapper">
+        <div class="landingPagecllt">
+            <h1>Berichtsheft</h1>
+        </div>
 
-    <div class="form-group">
-        <label for="abteilung">Abteilung :</label>
-        <input type="text" id="abteilung" placeholder="">
-    </div>
+        <div class="menuList">
+            <div class="menuListRow">
+                <label class="labelM" for="abteilung">Abteilung :</label>
+                <input class="inputM" type="text" id="abteilung" placeholder="">
+            </div>
 
-    <div class="form-group">
-        <label for="ausbilder">Ausbilder :</label>
-        <input type="text" id="ausbilder" placeholder="">
-    </div>
+            <div class="menuListRow">
+                <label class="labelM" for="ausbilder">Ausbilder :</label>
+                <input class="inputM" type="text" id="ausbilder" placeholder="">
+            </div>
 
-    <div class="form-group">
-        <label for="start">Anfang Zeitraum :</label>
-        <input type="date" id="start">
-    </div>
+            <div class="menuListRow">
+                <label class="labelM" for="start">Anfang Zeitraum :</label>
+                <input class="inputM" type="date" id="start">
+            </div>
 
-    <div class="form-group">
-        <label for="end">Ende Zeitraum :</label>
-        <input type="date" id="end">
-    </div>
+            <div class="menuListRow">
+                <label class="labelM" for="end">Ende Zeitraum :</label>
+                <input class="inputM" type="date" id="end">
+            </div>
 
-    <div class="activity-section">
-        <label>Gesamtstunden :</label>
-        <div class="form-group">
-            <label>Tätigkeit :</label>
-            <div class="activity-inputs">
-                <input type="text" placeholder="schreiben Sie Ihre Tätigkeit">
-                <input type="text" placeholder="schreiben Sie Ihre Stunden">
+            <div class="menuListRow">
+                <div class="menutListItem">
+                    <label>Gesamtstunden :</label>
+                    <div class="landingPageForms">
+                        <input class="inputM" type="text" placeholder="schreiben Sie Ihre Tätigkeit">
+                        <input class="inputM" type="text" placeholder="schreiben Sie Ihre Stunden">
+                    </div>
+                    <div class="menuButtons">
+                        <button class="buttonS">+</button>
+                        <button class="buttonS">-</button>
+                        <button class="buttonS">✎</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menuListRow">
+                <div class="menutListItem">
+                    <label>Gesamtstunden :</label>
+                    <div class="landingPageForms">
+                        <input class="inputM" type="text" placeholder="schreiben Sie Ihre Tätigkeit">
+                        <input class="inputM" type="text" placeholder="schreiben Sie Ihre Stunden">
+                    </div>
+                    <div class="menuButtons">
+                        <button class="buttonS">+</button>
+                        <button class="buttonS">-</button>
+                        <button class="buttonS">✎</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="activity-actions">
-            <span>+</span>
-            <span>-</span>
-            <span>✎</span>
-        </div>
-    </div>
 
-    <div class="activity-section">
-        <label>Gesamtstunden :</label>
-        <div class="form-group">
-            <label>Tätigkeit :</label>
-            <div class="activity-inputs">
-                <input type="text" placeholder="schreiben Sie Ihre Tätigkeit">
-                <input type="text" placeholder="schreiben Sie Ihre Stunden">
-            </div>
+        <div class="menuButtons">
+            <button class="buttonM">Speichern</button>
+            <button class="buttonM">Abbrechen</button>
+            <button class="buttonM">Hochladen</button>
         </div>
-        <div class="activity-actions">
-            <span>+</span>
-            <span>-</span>
-            <span>✎</span>
-        </div>
-    </div>
-
-    <div class="button-group">
-        <button>Speichern</button>
-        <button>Abbrechen</button>
-        <button>Hochladen</button>
     </div>
 </div>
 </body>
