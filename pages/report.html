@@ -3,75 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berichtsheft</title>
     <link rel="stylesheet" href="../css/stylesheet.css">
-    <link rel="script" href="../js/app.js">
-    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'></head>
-<body>
-<div class="landingPage">
-    <div class="landingPageWrapper">
-        <div class="landingPagecllt">
+    <title>Berichtsheft</title>
+</head>
+<body style="background-color: #FE654F; color: white; font-family: 'Fredoka One'">
+<main class="landingPage">
+    <section class="landingPageWrapper">
+        <header>
             <h1>Berichtsheft</h1>
-        </div>
+        </header>
 
-        <div class="menuList">
-            <div class="menuListRow">
+        <form>
+            <div class="reportListRow">
                 <label class="labelM" for="abteilung">Abteilung :</label>
-                <input class="inputM" type="text" id="abteilung" placeholder="">
+                <input class="inputM" type="text" id="abteilung" placeholder="Ihre Abteilung eingeben">
             </div>
-
-            <div class="menuListRow">
+            <div class="reportListRow">
                 <label class="labelM" for="ausbilder">Ausbilder :</label>
-                <input class="inputM" type="text" id="ausbilder" placeholder="">
+                <input class="inputM" type="text" id="ausbilder" placeholder="Name des Ausbilders">
             </div>
 
-            <div class="menuListRow">
-                <label class="labelM" for="start">Anfang Zeitraum :</label>
-                <input class="inputM" type="date" id="start">
+            <div class="reportListRow">
+                <label class="labelM" for="bericht">Bericht :</label>
+                <textarea class="textareaM" id="bericht" placeholder="Schreiben Sie Ihren Bericht hier..." rows="8"></textarea>
             </div>
 
-            <div class="menuListRow">
-                <label class="labelM" for="end">Ende Zeitraum :</label>
-                <input class="inputM" type="date" id="end">
+            <div class="reportButtons">
+                <button class="buttonM" type="submit">Speichern</button>
+                <button class="buttonM" type="reset">Abbrechen</button>
+                <button class="buttonM" type="button">Hochladen</button>
             </div>
-
-            <div class="menuListRow">
-                <div class="menutListItem">
-                    <label>Gesamtstunden :</label>
-                    <div class="landingPageForms">
-                        <input class="inputM" type="text" placeholder="schreiben Sie Ihre Tätigkeit">
-                        <input class="inputM" type="text" placeholder="schreiben Sie Ihre Stunden">
-                    </div>
-                    <div class="menuButtons">
-                        <button class="buttonS">+</button>
-                        <button class="buttonS">-</button>
-                        <button class="buttonS">✎</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menuListRow">
-                <div class="menutListItem">
-                    <label>Gesamtstunden :</label>
-                    <div class="landingPageForms">
-                        <input class="inputM" type="text" placeholder="schreiben Sie Ihre Tätigkeit">
-                        <input class="inputM" type="text" placeholder="schreiben Sie Ihre Stunden">
-                    </div>
-                    <div class="menuButtons">
-                        <button class="buttonS">+</button>
-                        <button class="buttonS">-</button>
-                        <button class="buttonS">✎</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="menuButtons">
-            <button class="buttonM">Speichern</button>
-            <button class="buttonM">Abbrechen</button>
-            <button class="buttonM">Hochladen</button>
-        </div>
-    </div>
-</div>
+        </form>
+    </section>
+</main>
 </body>
 </html>
+<style>
+
+
+
+</style>
